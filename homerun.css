@@ -1,0 +1,116 @@
+/* index.css */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+}
+
+#banner {
+    width: 100vw;
+    height: 10vh;
+    background-color:rgb(170, 50, 50);
+    padding: 10px;
+}
+
+#siteTitle {
+    font-size: 50px;
+    font-weight: bolder;
+    /* color: white; */
+}
+
+
+#bodyPage {
+    width: 100vw;
+    height: auto;
+    background: linear-gradient(rgba(150,150,150,.3), rgba(150,150,150,0)), url("./images/Mlb_background_logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+    box-sizing: content-box;
+}
+
+
+#totalRuns {
+    width: 600px;
+    height: 50px;
+    /* background: navy; */
+    text-align: center;
+    color:white;
+    font-size: 36px;
+    font-weight: bolder;
+    order: 1;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#imageLocation {
+    width: 300px;
+    height:400px;
+    background: orange;
+    order: 2;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    width: 55px;
+    height: 45px;
+    opacity: .75;
+    margin-top: 15px;
+}
+
+
+.buttonContainer {
+    height: 60px;
+    width: 300px;
+    /* background-color: purple; */
+    justify-self: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#leftButton {
+    margin-left: 5px;
+}
+
+
+#rightButton {
+    justify-self: flex-end;
+    margin-right: 5px;
+}
+
+
+#playerDetails {
+    width: 700px;
+    height: 200px;
+    background: pink;
+    order: 3;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+#footer {
+    width:100vw;
+    height: 75px;
+    background: coral;
+    order: 4;
+}
